@@ -3,6 +3,8 @@
 
 int main(){
 
+  //limits.h is in /usr/include, and it will give you the macro names.
+
   printf("Integers--------\n");
   printf("The Maximum Integer is %d.\n", INT_MAX);
   printf("The Miniumum Integer is %d.\n", INT_MIN);
