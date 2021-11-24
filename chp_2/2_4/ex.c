@@ -18,7 +18,7 @@ char * new_squeeze(char s[], char w[])
       if (w[k] == s[i]) match = 1; 
     }
   if (match != 1)
-    s[j] == s[i];
+    s[j] = s[i];
   j++;
 
   return s;
@@ -29,8 +29,7 @@ int main()
   char a[] = "a quick test";
   char b[] = "qcyyyy";
 
-  new_squeeze(&a, &b);
+  //new_squeeze(a, b);
 
-  printf(&a);
-  
+  printf(new_squeeze(a, b));  
 }
